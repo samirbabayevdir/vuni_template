@@ -1,0 +1,135 @@
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #0d0d0d;
+		z-index: 2;
+	}
+}
+.header__body {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	@media ($mb_md) {
+		height: 80px;
+	}
+	align-items: center;
+}
+
+.header__list {
+	display: flex;
+	margin: 0;
+	position: relative;
+	z-index: 2;
+	li {
+		list-style: none;
+		margin: 0 0 0 20px;
+	}
+}
+.header__link {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: $font_sm;
+	text-decoration: none;
+}
+.header__logo {
+	z-index: 3;
+	img {
+		height: 35px;
+	}
+}
+
+@media (max-width: 768px) {
+	.header__burger {
+		z-index: 3;
+		display: block;
+		position: relative;
+		width: 30px;
+		height: 20px;
+		&:before,
+		&:after {
+			content: "";
+			background-color: #fff;
+			position: absolute;
+			width: 100%;
+			height: 2px;
+			left: 0;
+			transition: all 0.3s ease 0s;
+		}
+		&:before {
+			top: 0;
+		}
+		&:after {
+			bottom: 0;
+		}
+		span {
+			background-color: #fff;
+			position: absolute;
+			width: 100%;
+			height: 2px;
+			left: 0;
+			top: 9px;
+			transition: all 0.3s ease 0s;
+		}
+		@media ($mb_md) {
+			display: none;
+		}
+	}
+	.header__burger.active {
+		&:before {
+			transform: rotate(45deg);
+			top: 9px;
+		}
+		&:after {
+			transform: rotate(-45deg);
+			bottom: 9px;
+		}
+		span {
+			transform: scale(0);
+    }
+	}
+	.header__menu {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 80%;
+		height: 100%;
+		background-color: #0d0d0d;
+		padding: 90px 0;
+    transform: translateX(-100%);
+    transition: all 0.35s ease-out;
+    overflow: auto;
+	}
+	.header__menu.active {
+		transform: translateX(0);
+  }
+  .header__bg.active{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0d0d0d79;
+    transition: all 0.3s;
+  }
+	.header__list {
+		display: block;
+  }
+  body.lock {
+    overflow: hidden;
+  }
+}
+
+.content {
+	padding: 100px 0;
+}

@@ -22,3 +22,26 @@ $font_md: 3rem;
 $font_lg: 4rem;
 $font_xl: 6rem;
 $font_2xl: 8rem;
+
+$mb_sm: 'min-width: 640px';
+$mb_md: 'min-width: 768px';
+$mb_lg: 'min-width: 1024px';
+$mb_xl: 'min-width: 1280px';
+
+.container__full {
+	margin: 0 auto;
+	padding: 0 10px;
+	@media ($mb_sm) {
+		padding: 0 35px;
+	}
+	@media ($mb_md) {
+		padding: 0 35px;
+	}
+	@media ($mb_lg) {
+		padding: 0 35px;
+
+	}
+	@media ($mb_xl) {
+		padding: 0 100px;
+	}
+}
