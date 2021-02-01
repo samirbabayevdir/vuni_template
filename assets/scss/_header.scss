@@ -181,7 +181,7 @@
 		@media ($mb_lg) {
 			font-size: $font_sm;
 		}
-		@media ($mb_xl) {
+		@media ($mb_2xl) {
 			font-size: $font_md;
 		}
 		font-weight: 400;
@@ -315,6 +315,7 @@
 		height: 100%;
 		background-color: #0d0d0d79;
 		transition: all 0.3s;
+		z-index: 1;
 	}
 	.header__list {
 		display: block;
@@ -329,4 +330,5 @@
 }
 .content {
 	padding: 200px 0;
+	background-color: #fff;
 }

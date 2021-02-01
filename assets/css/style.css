@@ -320,7 +320,7 @@ ul, li {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1715px) {
   .dropdown__item a {
     font-size: 2.5rem;
   }
@@ -470,6 +470,7 @@ ul, li {
     background-color: #0d0d0d79;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    z-index: 1;
   }
   .header__list {
     display: block;
@@ -484,5 +485,207 @@ ul, li {
 
 .content {
   padding: 200px 0;
+  background-color: #fff;
+}
+
+.banner__home {
+  padding-top: 50px;
+}
+
+@media (min-width: 768px) {
+  .banner__home {
+    padding-top: 150px;
+  }
+}
+
+.banner {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 600px;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    height: 800px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner {
+    height: 1200px;
+  }
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  display: block;
+  left: calc(100px / -2);
+  right: auto;
+  bottom: 0;
+  width: calc(50vw + 50px);
+  -webkit-transform: skewX(-45deg);
+          transform: skewX(-45deg);
+  background-color: #fff;
+  height: 60px;
+}
+
+@media (min-width: 1024px) {
+  .banner::before {
+    height: 100px;
+    width: calc(50vw + 200px);
+    left: calc(100px / -2);
+  }
+}
+
+.banner__bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner__bg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: -10;
+}
+
+.banner__title {
+  margin-top: 70px;
+  background-color: #e10f21;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  padding: 5px;
+}
+
+@media (min-width: 1024px) {
+  .banner__title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+    padding: 5px 15px;
+    margin-top: 100px;
+  }
+}
+
+.banner__title-h1 {
+  margin-top: 25px;
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  letter-spacing: 0.1rem;
+}
+
+@media (min-width: 1024px) {
+  .banner__title-h1 {
+    padding-top: 50px;
+    font-size: 5rem;
+    letter-spacing: 0.5rem;
+    max-width: 85%;
+    font-weight: 800;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .banner__title-h1 {
+    font-size: 8rem;
+  }
+}
+
+.btn__vk {
+  margin-top: 40px;
+  border: 3px solid #e10f21;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 5px 15px;
+}
+
+@media (min-width: 1024px) {
+  .btn__vk {
+    border: 7px solid #e10f21;
+    padding: 30px 45px;
+    text-transform: uppercase;
+    background-color: transparent;
+    -webkit-transition: 300ms;
+    transition: 300ms;
+    display: inline-block;
+    max-width: 345;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 2.3rem;
+    letter-spacing: 0.25em;
+  }
+}
+
+.btn__vk:hover {
+  background-color: #e10f21;
+  color: #fff;
+}
+
+.banner__skewed-bar {
+  position: absolute;
+  height: 50px;
+  width: 185px;
+  display: block;
+  bottom: -55px;
+  right: auto;
+  left: calc(50vw + 200px - 400px / 2);
+  -webkit-transform: translateX(-55px) rotateZ(-45deg);
+          transform: translateX(-55px) rotateZ(-45deg);
+  background-color: #e10f21;
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
+}
+
+.banner__skewed-bar::before, .banner__skewed-bar::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: #e10f21 transparent transparent transparent;
+  border-width: 50px 50px 0 50px;
+}
+
+.banner__skewed-bar::before {
+  right: calc(100% - 50px);
+}
+
+.banner__skewed-bar::after {
+  left: calc(100% - 50px);
+}
+
+@media (min-width: 1024px) {
+  .banner__skewed-bar {
+    width: 285px;
+    left: calc(50vw + 200px - 100px / 2);
+  }
 }
 /*# sourceMappingURL=style.css.map */
