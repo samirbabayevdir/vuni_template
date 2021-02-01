@@ -4,7 +4,6 @@
 	top: 0;
 	left: 0;
 	z-index: 50;
-	transition: all 0.3s;
 	&:before {
 		content: "";
 		position: absolute;
@@ -12,25 +11,39 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background-color: #0d0d0dec;
+		background-color: #0d0d0d;
 		z-index: 2;
+		transition: all 0.5s;
+		@media ($mb_md) {
+			background-color: #0d0d0de5;
+		}
 	}
 	@media ($mb_md) {
-		top: 35px;
+		top: 40px;
 	}
 }
-.header.transition {
-	transition: all 0.3s;
-	&:before {
-		background-color: #0d0d0d;
-	}
-	.header__body {
-		transition: all 0.3s;
+@media ($mb_md) {
+	.header.transition {
+		&:before {
+			background-color: #0d0d0d;
+		}
+		.header__logo-text {
+			opacity: 0;
+		}
+		.header__body {
+			height: 80px;
+		}
+		.header__logo {
+			img {
+				height: 55px;
+			}
+		}
 	}
 }
+
 .header__top {
 	display: none;
-	height: 35px;
+	height: 40px;
 	background-color: #e10f21;
 	z-index: 51;
 	@media ($mb_md) {
@@ -85,8 +98,9 @@
 	display: flex;
 	justify-content: space-between;
 	height: 50px;
+	transition: all 0.3s;
 	@media ($mb_md) {
-		height: 80px;
+		height: 110px;
 	}
 	align-items: center;
 }
@@ -115,18 +129,23 @@
 	text-decoration: none;
 	img {
 		height: 35px;
-		@media ($mb_lg) {
+		transition: all 0.3s;
+		@media ($mb_md) {
 			height: 55px;
+		}
+		@media ($mb_lg) {
+			height: 75px;
 		}
 	}
 	.header__logo-text {
+		transition: all 0.3s;
 		font-size: $font_xs;
 		color: #e10f21;
 		text-decoration: none;
 		text-transform: uppercase;
 		padding-left: 12px;
 		@media ($mb_lg) {
-			font-size: 1.7rem;
+			font-size: $font_sm;
 			padding-left: 20px;
 		}
 	}
@@ -165,16 +184,15 @@
 		@media ($mb_xl) {
 			font-size: $font_md;
 		}
-		@media ($mb_2xl) {
-			font-size: $font_lg;
-		}
 		font-weight: 400;
 		text-decoration: none;
 		transition: all 0.3s;
-		padding: 0 45px;
+		padding: 0 20px;
 		&:hover {
 			color: #d11020;
 		}
+		text-transform: uppercase;
+		letter-spacing: 0.2rem;
 	}
 	&:last-child {
 		a {
@@ -193,11 +211,14 @@
 			padding: 0 0 0 10px;
 			font-size: $font_xs;
 			border-bottom: none;
+			@media ($mb_lg) {
+				font-size: $font_sm;
+			}
 		}
 	}
 	padding: 35px 105px;
 	position: absolute;
-	background-color: #0d0d0df8;
+	background-color: #0d0d0d;
 	z-index: 3;
 	width: 100%;
 	top: 99%;
@@ -209,6 +230,10 @@
 		text-decoration: none;
 		display: block;
 		border-bottom: 1px solid #d11020;
+		font-size: $font_sm;
+		@media ($mb_lg) {
+			font-size: $font_md;
+		}
 	}
 }
 
@@ -303,5 +328,5 @@
 	}
 }
 .content {
-	padding: 125px 0;
+	padding: 200px 0;
 }
