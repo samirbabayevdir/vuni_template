@@ -12,21 +12,26 @@ body {
 	font-weight: 300;
 	font-size: 1.7rem;
 }
+ul, li {
+	margin: 0;
+	padding: 0;
+}
 
 $font1: "Montserrat", sans-serif;
 $font2: "Kanit", sans-serif;
 
 $font_xs: 1.5rem;
 $font_sm: 2rem;
-$font_md: 3rem;
-$font_lg: 4rem;
+$font_md: 2.5rem;
+$font_lg: 3.5rem;
 $font_xl: 6rem;
 $font_2xl: 8rem;
 
 $mb_sm: 'min-width: 640px';
 $mb_md: 'min-width: 768px';
 $mb_lg: 'min-width: 1024px';
-$mb_xl: 'min-width: 1280px';
+$mb_xl: 'min-width: 1440px';
+$mb_2xl: 'min-width: 1715px';
 
 .container__full {
 	margin: 0 auto;
