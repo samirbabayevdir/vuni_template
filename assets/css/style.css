@@ -7,7 +7,6 @@ html {
 
 body {
   font-family: "Kanit", sans-serif;
-  overflow-x: hidden;
   font-weight: 300;
   font-size: 1.7rem;
 }
@@ -686,6 +685,7 @@ ul, li {
 .main {
   padding: 60px 0 20px;
   background-color: #fff;
+  overflow: hidden;
 }
 
 .main__about-left h2 {
