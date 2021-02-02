@@ -1,8 +1,5 @@
 .banner__home {
 	padding-top: 50px;
-	@media ($mb_md) {
-		padding-top: 150px;
-	}
 }
 .banner {
 	position: relative;
@@ -98,8 +95,10 @@
 	color: #fff;
 	text-transform: uppercase;
 	text-decoration: none;
+	text-align: center;
 	font-size: $font_sm;
 	padding: 5px 15px;
+	cursor: pointer;
 	@media ($mb_lg) {
 		border: 7px solid #e10f21;
 		padding: 30px 45px;
