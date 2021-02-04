@@ -22,7 +22,7 @@ include('header.php');
     <div class="row">
       <div class="col-lg-6">
         <div class="main__about-left">
-          <h2>VEKTOR UNİFORMA, 15 İL MÖVZUDA</h2>
+          <h2>VEKTOR UNİFORMA, 15 İL BU BİZNESDƏ</h2>
           <p>Bizim kompaniya müxtəlif cür iş geyimlərinin(uniformalarının) topdan
             satışı ilə məşğuldur:</p>
           <ul>
@@ -41,7 +41,7 @@ include('header.php');
             də fiziki şəxslər mövcuddur. Hər bir müştəriyə onun tələb və
             istəklərinə uyğun olaraq endirimlər təklif etməyə hazırıq. Müsabiqəli,
             daimi alıcı və sezon endirimləri mövcuddur.</p>
-          <h4><a href="#">ƏTRAFLI</a></h4>
+          <h4><a href="about.php">ƏTRAFLI</a></h4>
         </div>
       </div>
       <div class="col-lg-6">

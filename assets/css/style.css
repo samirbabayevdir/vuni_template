@@ -1368,4 +1368,47 @@ ul, li {
   color: #e10f21;
   background-color: #fff;
 }
+
+.main.about .main__about-right ul {
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+.main.about .main__about-right li {
+  font-size: 2rem;
+  color: #2b2b2b;
+  text-transform: none;
+  list-style: disc;
+  font-weight: 500;
+}
+
+.main.about .main__about-right p {
+  font-size: 2rem;
+}
+
+.main.about .main__about-right span {
+  font-weight: 600;
+}
+
+.main.about .main__about-right img {
+  bottom: 0;
+  opacity: 0.6;
+}
+
+.about__bg-banner {
+  height: 300px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.inner {
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
