@@ -31,6 +31,15 @@
 		}
 	}
 }
+.banner.page {
+	height: 400px;
+	@media ($mb_md) {
+		height: 500px;
+	}
+	@media ($mb_lg) {
+		height: 600px;
+	}
+}
 .banner__bg {
 	position: fixed;
 	left: 0;
