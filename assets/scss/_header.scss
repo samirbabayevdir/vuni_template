@@ -212,7 +212,8 @@
 			font-size: $font_xs;
 			border-bottom: none;
 			@media ($mb_lg) {
-				font-size: $font_sm;
+				font-size: $font_xs;
+				letter-spacing: normal;
 			}
 		}
 	}
@@ -232,7 +233,7 @@
 		border-bottom: 1px solid #d11020;
 		font-size: $font_sm;
 		@media ($mb_lg) {
-			font-size: $font_md;
+			font-size: $font_sm;
 		}
 	}
 }

@@ -5,6 +5,7 @@
 }
 
 .main__about-left {
+	padding-top: 25px;
 	h2 {
 		line-height: 3rem;
 		font-weight: 800;
@@ -14,7 +15,7 @@
 		margin: 35px 0;
 		text-transform: uppercase;
 		@media ($mb_lg) {
-			font-size: $font_2xl;
+			font-size: $font_xl;
 			line-height: 5.5rem;
 		}
 		&:after {
@@ -60,17 +61,15 @@
 }
 
 .main__about-right {
-	padding-top: 20px;
 	position: relative;
 	padding-bottom: 150px;
 	@media ($mb_lg) {
-		padding-top: 80px;
 		padding-left: 80px;
 		padding-bottom: 0px;
 	}
 	h3 {
 		color: #000;
-		font-weight: 700;
+		font-weight: 600;
 		font-size: $font_lg;
 		line-height: 2.5rem;
 		letter-spacing: 0.05rem;
@@ -98,7 +97,7 @@
 		transition: all 0.4s;
 		cursor: pointer;
 		@media ($mb_lg) {
-			font-size: $font_lg;
+			font-size: $font_md;
 			background-size: 100px 100px;
 		}
 		&:hover {

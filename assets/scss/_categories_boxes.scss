@@ -30,7 +30,7 @@
 		margin: 35px 0;
 		text-transform: uppercase;
 		@media ($mb_lg) {
-			font-size: $font_2xl;
+			font-size: $font_xl;
 			line-height: 5.5rem;
 		}
 		&:after {
@@ -55,7 +55,7 @@
 	transform-origin: bottom right;
 	width: 100%;
 	text-align: right;
-	font-size: $font_lg;
+	font-size: $font_sm;
 	font-weight: 600;
 	color: #000;
 	max-width: 300px;
@@ -97,7 +97,7 @@
 		}
 	}
 	.btn__vk {
-		font-size: $font_md;
+		font-size: $font_sm;
 		padding: 10px 15px;
 		margin: 0 auto;
 		position: relative;
