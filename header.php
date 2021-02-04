@@ -21,11 +21,11 @@
     <div class="container__full">
       <div class="header__top-inner">
         <ul class="socials">
-          <li><a href="#" class="number">+994 00 000 00 00</a></li>
+          <li><a href="categories.php" class="number">+994 00 000 00 00</a></li>
           <li><a href="contact.php" class="contact">Bizimlə Əlaqə</a></li>
           <li><a href="about.php" class="about">Haqqımızda</a></li>
-          <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-          <li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="categories.php" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="categories.php" class="instagram"><i class="fab fa-instagram"></i></a></li>
         </ul>
       </div>
     </div>
@@ -73,102 +73,102 @@
           </ul>
           <ul class="dropdown__list">
             <li class="dropdown__item">
-              <a class="dropbtn" href="#">İŞ GEYİMLƏRİ</a>
+              <a class="dropbtn" href="categories.php">İŞ GEYİMLƏRİ</a>
               <ul class="dropdown-content">
                 <li>
-                  <a href="#">Ayaqqabılar</a>
+                  <a href="categories.php">Ayaqqabılar</a>
                   <ul>
-                    <li><a href="#">Yay Ayaqqabılar</a></li>
-                    <li><a href="#">Qış Ayaqqabılar</a></li>
-                    <li><a href="#">Rezin Ayaqqabılar</a></li>
+                    <li><a href="products.php">Yay Ayaqqabılar</a></li>
+                    <li><a href="products.php">Qış Ayaqqabılar</a></li>
+                    <li><a href="products.php">Rezin Ayaqqabılar</a></li>
                   </ul>
                 </li>
                 <li>
-                  <a href="#">Ayaqqabılar</a>
+                  <a href="categories.php">Ayaqqabılar</a>
                   <ul>
-                    <li><a href="#">Yay Ayaqqabılar</a></li>
-                    <li><a href="#">Qış Ayaqqabılar</a></li>
-                    <li><a href="#">Rezin Ayaqqabılar</a></li>
+                    <li><a href="products.php">Yay Ayaqqabılar</a></li>
+                    <li><a href="products.php">Qış Ayaqqabılar</a></li>
+                    <li><a href="products.php">Rezin Ayaqqabılar</a></li>
                   </ul>
                 </li>
                 <li>
-                  <a href="#">Ayaqqabılar</a>
+                  <a href="categories.php">Ayaqqabılar</a>
                   <ul>
-                    <li><a href="#">Yay Ayaqqabılar</a></li>
-                    <li><a href="#">Qış Ayaqqabılar</a></li>
-                    <li><a href="#">Rezin Ayaqqabılar</a></li>
-                    <li><a href="#">Yay Ayaqqabılar</a></li>
-                    <li><a href="#">Qış Ayaqqabılar</a></li>
-                    <li><a href="#">Rezin Ayaqqabılar</a></li>
+                    <li><a href="products.php">Yay Ayaqqabılar</a></li>
+                    <li><a href="products.php">Qış Ayaqqabılar</a></li>
+                    <li><a href="products.php">Rezin Ayaqqabılar</a></li>
+                    <li><a href="products.php">Yay Ayaqqabılar</a></li>
+                    <li><a href="products.php">Qış Ayaqqabılar</a></li>
+                    <li><a href="products.php">Rezin Ayaqqabılar</a></li>
                   </ul>
                 </li>
               </ul>
             </li>
             <li class="dropdown__item">
-              <a class="dropbtn" href="#">FƏRDİ QORUYUCU VASİTƏLƏR</a>
+              <a class="dropbtn" href="categories.php">FƏRDİ QORUYUCU VASİTƏLƏR</a>
               <ul class="dropdown-content">
                 <li>
-                  <a href="#">Ayaqqabılar</a>
+                  <a href="categories.php">Ayaqqabılar</a>
                   <ul>
-                    <li><a href="#">Yay Ayaqqabılar</a></li>
-                    <li><a href="#">Qış Ayaqqabılar</a></li>
-                    <li><a href="#">Rezin Ayaqqabılar</a></li>
+                    <li><a href="products.php">Yay Ayaqqabılar</a></li>
+                    <li><a href="products.php">Qış Ayaqqabılar</a></li>
+                    <li><a href="products.php">Rezin Ayaqqabılar</a></li>
                   </ul>
                 </li>
                 <li>
-                  <a href="#">Ayaqqabılar</a>
+                  <a href="categories.php">Ayaqqabılar</a>
                   <ul>
-                    <li><a href="#">Yay Ayaqqabılar</a></li>
-                    <li><a href="#">Qış Ayaqqabılar</a></li>
-                    <li><a href="#">Rezin Ayaqqabılar</a></li>
+                    <li><a href="products.php">Yay Ayaqqabılar</a></li>
+                    <li><a href="products.php">Qış Ayaqqabılar</a></li>
+                    <li><a href="products.php">Rezin Ayaqqabılar</a></li>
                   </ul>
                 </li>
                 <li>
-                  <a href="#">Ayaqqabılar</a>
+                  <a href="categories.php">Ayaqqabılar</a>
                   <ul>
-                    <li><a href="#">Yay Ayaqqabılar</a></li>
-                    <li><a href="#">Qış Ayaqqabılar</a></li>
-                    <li><a href="#">Rezin Ayaqqabılar</a></li>
-                    <li><a href="#">Yay Ayaqqabılar</a></li>
-                    <li><a href="#">Qış Ayaqqabılar</a></li>
-                    <li><a href="#">Rezin Ayaqqabılar</a></li>
+                    <li><a href="products.php">Yay Ayaqqabılar</a></li>
+                    <li><a href="products.php">Qış Ayaqqabılar</a></li>
+                    <li><a href="products.php">Rezin Ayaqqabılar</a></li>
+                    <li><a href="products.php">Yay Ayaqqabılar</a></li>
+                    <li><a href="products.php">Qış Ayaqqabılar</a></li>
+                    <li><a href="products.php">Rezin Ayaqqabılar</a></li>
                   </ul>
                 </li>
                 <li>
-                  <a href="#">Ayaqqabılar</a>
+                  <a href="categories.php">Ayaqqabılar</a>
                   <ul>
-                    <li><a href="#">Yay Ayaqqabılar</a></li>
-                    <li><a href="#">Qış Ayaqqabılar</a></li>
-                    <li><a href="#">Rezin Ayaqqabılar</a></li>
+                    <li><a href="products.php">Yay Ayaqqabılar</a></li>
+                    <li><a href="products.php">Qış Ayaqqabılar</a></li>
+                    <li><a href="products.php">Rezin Ayaqqabılar</a></li>
                   </ul>
                 </li>
                 <li>
-                  <a href="#">Ayaqqabılar</a>
+                  <a href="categories.php">Ayaqqabılar</a>
                   <ul>
-                    <li><a href="#">Yay Ayaqqabılar</a></li>
-                    <li><a href="#">Qış Ayaqqabılar</a></li>
-                    <li><a href="#">Rezin Ayaqqabılar</a></li>
+                    <li><a href="products.php">Yay Ayaqqabılar</a></li>
+                    <li><a href="products.php">Qış Ayaqqabılar</a></li>
+                    <li><a href="products.php">Rezin Ayaqqabılar</a></li>
                   </ul>
                 </li>
                 <li>
-                  <a href="#">Ayaqqabılar</a>
+                  <a href="categories.php">Ayaqqabılar</a>
                   <ul>
-                    <li><a href="#">Yay Ayaqqabılar</a></li>
-                    <li><a href="#">Qış Ayaqqabılar</a></li>
-                    <li><a href="#">Rezin Ayaqqabılar</a></li>
-                    <li><a href="#">Yay Ayaqqabılar</a></li>
-                    <li><a href="#">Qış Ayaqqabılar</a></li>
-                    <li><a href="#">Rezin Ayaqqabılar</a></li>
+                    <li><a href="products.php">Yay Ayaqqabılar</a></li>
+                    <li><a href="products.php">Qış Ayaqqabılar</a></li>
+                    <li><a href="products.php">Rezin Ayaqqabılar</a></li>
+                    <li><a href="products.php">Yay Ayaqqabılar</a></li>
+                    <li><a href="products.php">Qış Ayaqqabılar</a></li>
+                    <li><a href="products.php">Rezin Ayaqqabılar</a></li>
                   </ul>
                 </li>
               </ul>
             </li>
             <li class="dropdown__item">
-              <a class="dropbtn" href="#">TƏHLÜKƏSİZLİK AVADANLIQLARI</a>
+              <a class="dropbtn" href="categories.php">TƏHLÜKƏSİZLİK AVADANLIQLARI</a>
               <ul class="dropdown-content">
-                <li><a href="#">Element 5</a></li>
-                <li><a href="#">Element 5</a></li>
-                <li><a href="#">Element 5</a></li>
+                <li><a href="products.php">Element 5</a></li>
+                <li><a href="products.php">Element 5</a></li>
+                <li><a href="products.php">Element 5</a></li>
               </ul>
             </li>
           </ul>

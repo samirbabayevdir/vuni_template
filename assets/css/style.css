@@ -1411,4 +1411,23 @@ ul, li {
 .inner {
   text-align: center;
 }
+
+.banner__wrapper.categories__page .banner.page {
+  height: 550px;
+}
+
+@media (min-width: 1024px) {
+  .banner__wrapper.categories__page .banner.page {
+    height: 600px;
+  }
+}
+
+.banner__wrapper.categories__page .banner:before {
+  background-color: #dddbd3;
+}
+
+.banner__wrapper.categories__page .banner__title-h1 {
+  font-size: 5rem;
+  margin-bottom: 100px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -70,7 +70,7 @@ include('header.php');
       <div class="row justify-content-center">
         <div class="col-lg-4">
           <div class="categories__box">
-            <a href="#" style="background-image: url(/assets/images/isgeyiml.jpg);">
+            <a href="categories.php" style="background-image: url(/assets/images/isgeyiml.jpg);">
               <div class="categories__box-bg"></div>
               <div class="btn__vk">İŞ GEYİMLƏRİ</div>
             </a>
@@ -78,7 +78,7 @@ include('header.php');
         </div>
         <div class="col-lg-4">
           <div class="categories__box">
-            <a href="#" style="background-image: url(/assets/images/isgeyim.jpg);">
+            <a href="categories.php" style="background-image: url(/assets/images/ferdiq.jpg);">
               <div class="categories__box-bg"></div>
               <div class="btn__vk">FƏRDİ QORUYUCU VASİTƏLƏR</div>
             </a>
@@ -86,7 +86,7 @@ include('header.php');
         </div>
         <div class="col-lg-4">
           <div class="categories__box">
-            <a href="#" style="background-image: url(/assets/images/tehlukesizlik.jpg);">
+            <a href="categories.php" style="background-image: url(/assets/images/tehlukesizlik.jpg);">
               <div class="categories__box-bg"></div>
               <div class="btn__vk">TƏHLÜKƏSİZLİK AVADANLIQLARI</div>
             </a>
