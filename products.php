@@ -17,6 +17,16 @@ include('header.php');
 </section>
 <section class="categories">
   <div class="container">
+    <section class="links">
+      <div class="container">
+        <div class="links__inner">
+          <a href="index.php">Əsas </a>/
+          <a href="categories.php">İş Geyimləri </a>/
+          <a href="categories.php">Ayaqqabılar </a>/
+          <a href="products.php">Yay Ayaqqabıları </a>/
+        </div>
+      </div>
+    </section>
     <div class="row categories__header">
       <div class="col-lg-6">
         <h2>Məhsullar</h2>
@@ -27,7 +37,7 @@ include('header.php');
       <div class="row justify-content-center">
         <div class="col-lg-4">
           <div class="categories__box">
-            <a href="#" style="background-image: url(/assets/images/ydsone.jpg);">
+            <a href="product.php" style="background-image: url(/assets/images/ydsone.jpg);">
               <div class="categories__box-bg"></div>
               <div class="btn__vk">YDS / ELPP 1090 S3 </div>
             </a>
@@ -35,7 +45,7 @@ include('header.php');
         </div>
         <div class="col-lg-4">
           <div class="categories__box">
-            <a href="#" style="background-image: url(/assets/images/ydstwo.jpg);">
+            <a href="product.php" style="background-image: url(/assets/images/ydstwo.jpg);">
               <div class="categories__box-bg"></div>
               <div class="btn__vk">YDS / ELPP 1065</div>
             </a>
@@ -43,7 +53,7 @@ include('header.php');
         </div>
         <div class="col-lg-4">
           <div class="categories__box">
-            <a href="#" style="background-image: url(/assets/images/ydsthree.jpg);">
+            <a href="product.php" style="background-image: url(/assets/images/ydsthree.jpg);">
               <div class="categories__box-bg"></div>
               <div class="btn__vk">YDS / ELPP 1065</div>
             </a>
@@ -51,7 +61,7 @@ include('header.php');
         </div>
         <div class="col-lg-4">
           <div class="categories__box">
-            <a href="#" style="background-image: url(/assets/images/talans.png);">
+            <a href="product.php" style="background-image: url(/assets/images/talans.png);">
               <div class="categories__box-bg"></div>
               <div class="btn__vk">TALAN / ONE78</div>
             </a>
@@ -59,7 +69,7 @@ include('header.php');
         </div>
         <div class="col-lg-4">
           <div class="categories__box">
-            <a href="#" style="background-image: url(/assets/images/babak.jpg);">
+            <a href="product.php" style="background-image: url(/assets/images/babak.jpg);">
               <div class="categories__box-bg"></div>
               <div class="btn__vk">BABAK / THE892</div>
             </a>

@@ -17,6 +17,14 @@ include('header.php');
 </section>
 <section class="categories">
   <div class="container">
+    <section class="links">
+      <div class="container">
+        <div class="links__inner">
+          <a href="index.php">Əsas </a>/
+          <a href="categories.php">Fərdi Qoruyucu Vasitələr </a>/
+        </div>
+      </div>
+    </section>
     <div class="row categories__header">
       <div class="col-lg-6">
         <h2>KATEQORİYALAR</h2>

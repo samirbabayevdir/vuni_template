@@ -43,6 +43,7 @@
 <script src="/assets/js/bootstrap.bundle.min.js"></script>
 <script src="/assets/js/jquery.accordion.js"></script>
 <script src="/assets/js/jquery.cookie.js"></script>
+<script src="/assets/js/slick.min.js"></script>
 <script src="/assets/js/script.js"></script>
 </body>
 

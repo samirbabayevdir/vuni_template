@@ -11,6 +11,7 @@
   <link rel="icon" href="/assets/images/Vektor-V.svg">
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/assets/css/slick.css">
   <link rel="stylesheet" href="/assets/css/style.css">
 
 </head>
@@ -43,33 +44,33 @@
         <nav class="header__menu">
           <ul class="header__list mobile__acc">
             <li>
-              <a href="" class="header__link">Home</a>
+              <a href="#" class="header__link">Home</a>
               <ul>
-                <li><a href="" class="header__link">Home</a></li>
-                <li><a href="" class="header__link">About</a></li>
-                <li><a href="" class="header__link">Contanct</a></li>
-                <li><a href="" class="header__link">Gallery</a></li>
+                <li><a href="#" class="header__link">Home</a></li>
+                <li><a href="#" class="header__link">About</a></li>
+                <li><a href="#" class="header__link">Contanct</a></li>
+                <li><a href="#" class="header__link">Gallery</a></li>
               </ul>
             </li>
             <li>
-              <a href="" class="header__link">About</a>
+              <a href="#" class="header__link">About</a>
               <ul>
                 <li>
-                  <a href="" class="header__link">Home</a>
+                  <a href="#" class="header__link">Home</a>
                   <ul>
-                    <li><a href="" class="header__link">Home</a></li>
-                    <li><a href="" class="header__link">About</a></li>
-                    <li><a href="" class="header__link">Contanct</a></li>
-                    <li><a href="" class="header__link">Gallery</a></li>
+                    <li><a href="#" class="header__link">Home</a></li>
+                    <li><a href="#" class="header__link">About</a></li>
+                    <li><a href="#" class="header__link">Contanct</a></li>
+                    <li><a href="#" class="header__link">Gallery</a></li>
                   </ul>
                 </li>
-                <li><a href="" class="header__link">About</a></li>
-                <li><a href="" class="header__link">Contanct</a></li>
-                <li><a href="" class="header__link">Gallery</a></li>
+                <li><a href="#" class="header__link">About</a></li>
+                <li><a href="#" class="header__link">Contanct</a></li>
+                <li><a href="#" class="header__link">Gallery</a></li>
               </ul>
             </li>
-            <li><a href="" class="header__link">Contanct</a></li>
-            <li><a href="" class="header__link">Gallery</a></li>
+            <li><a href="#" class="header__link">Contanct</a></li>
+            <li><a href="#" class="header__link">Gallery</a></li>
           </ul>
           <ul class="dropdown__list">
             <li class="dropdown__item">
