@@ -4,6 +4,7 @@
 html {
 	overflow-x: hidden !important;
 	font-size: 62.5%;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -11,7 +12,8 @@ body {
 	font-weight: 300;
 	font-size: 1.7rem;
 }
-ul, li {
+ul,
+li {
 	margin: 0;
 	padding: 0;
 }
@@ -28,11 +30,11 @@ $font_2xl: 5rem;
 $font_3xl: 7rem;
 $font_4xl: 8rem;
 
-$mb_sm: 'min-width: 640px';
-$mb_md: 'min-width: 768px';
-$mb_lg: 'min-width: 1024px';
-$mb_xl: 'min-width: 1440px';
-$mb_2xl: 'min-width: 1715px';
+$mb_sm: "min-width: 640px";
+$mb_md: "min-width: 768px";
+$mb_lg: "min-width: 1024px";
+$mb_xl: "min-width: 1440px";
+$mb_2xl: "min-width: 1715px";
 
 .container__full {
 	margin: 0 auto;
@@ -45,7 +47,6 @@ $mb_2xl: 'min-width: 1715px';
 	}
 	@media ($mb_lg) {
 		padding: 0 35px;
-
 	}
 	@media ($mb_xl) {
 		padding: 0 100px;
